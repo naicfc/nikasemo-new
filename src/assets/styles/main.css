@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {}
+
+body {
+  @apply bg-[#f3f3f3];
+  font-family: "poppins", sans-serif;
+}
+
+nav a.router-link-exact-active {
+  @apply font-bold;
+}
+
+nav a:hover {
+  @apply font-semibold;
+}
+
+nav a {
+  @apply ease-in duration-100;
+}
