@@ -58,7 +58,7 @@
     <transition name="slide-fade">
       <div
         v-if="menuOpen"
-        class="absolute top-full left-0 w-full bg-white shadow-lg rounded-b-2xl lg:hidden flex flex-col gap-4 px-6 py-4 text-dark font-medium">
+        class="absolute top-full left-0 w-full bg-baby shadow-lg rounded-b-2xl lg:hidden flex flex-col gap-4 px-6 py-4 text-dark font-medium">
         <router-link to="/" @click="menuOpen = false">Home</router-link>
         <router-link to="/about-us" @click="menuOpen = false">About Us</router-link>
         <router-link to="/our-vision" @click="menuOpen = false">Our Vision</router-link>
