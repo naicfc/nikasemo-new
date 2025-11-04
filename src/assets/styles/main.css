@@ -3,7 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {}
+* {
+}
 
 body {
   @apply bg-[#f3f3f3];
@@ -11,13 +12,17 @@ body {
 }
 
 nav a.router-link-exact-active {
-  @apply font-bold;
+  @apply font-medium text-secondary;
 }
 
 nav a:hover {
-  @apply font-semibold;
+  @apply text-secondary transition;
 }
 
 nav a {
-  @apply ease-in duration-100;
+  @apply ease-in duration-100 font-medium;
+}
+
+.button-class {
+  @apply px-4 py-2 font-medium tracking-wide rounded-full rounded-tl-none text-sm transform transition-all ease-in-out duration-300 shadow-lg;
 }

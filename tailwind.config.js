@@ -9,6 +9,9 @@ export default {
         light: "#f4faff",
         dark: "#002152",
         baby: "#f0f4ef",
+        ashgray: "#b8ccca",
+        yellow: "#f9fe00",
+        gold: "#cad300"
       },
     },
   },
